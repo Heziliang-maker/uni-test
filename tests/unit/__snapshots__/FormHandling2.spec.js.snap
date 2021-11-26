@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`submits a form 1`] = `
+<form>
+  <input
+    type="email"
+  />
+   
+  <textarea />
+   
+  <select>
+    <option
+      value="new-york"
+    >
+      New York
+    </option>
+     
+    <option
+      value="moscow"
+    >
+      Moscow
+    </option>
+  </select>
+   
+  <input
+    type="checkbox"
+  />
+   
+  <input
+    type="radio"
+    value="weekly"
+  />
+   
+  <input
+    type="radio"
+    value="monthly"
+  />
+   
+  <button
+    type="submit"
+  >
+    Submit
+  </button>
+</form>
+`;
