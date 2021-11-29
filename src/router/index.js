@@ -10,7 +10,7 @@ const Layout = {
   },
 };
 
-const routes = [
+export const routes = [
   {
     path: "/",
     name: "Home",
@@ -21,6 +21,10 @@ const routes = [
         path: "home/:id?",
         component: Home,
       },
+      {
+        path:'posts',
+        component:()=>import('@/views/posts')
+      }
     ],
   },
   {

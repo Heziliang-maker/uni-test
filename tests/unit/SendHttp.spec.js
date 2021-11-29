@@ -33,7 +33,9 @@ test("loads posts on button click", async () => {
 
   const posts = wrapper.findAll('[data-test="post"]');
   expect(posts).toHaveLength(2);
-  console.log("posts=>", posts);
+  // console.log("posts=>", posts);
+  
+  //  * test-utils vue3 findAll()返回一个DOMWrappers数组 但是vue2使用.at()来访问
   expect(posts.at(0).text()).toContain("a");
   expect(posts.at(1).text()).toContain("b");
 });

@@ -1,15 +1,17 @@
 <template>
   <div class="home">
-    <img
+       <h1>This is an home page</h1>
+    <!-- <img
       alt="Vue logo"
       src="../assets/logo.png"
-    >
-    <HelloWorld msg="Welcome to Your Vue.js App" />
-    <hr>
-    <p>id:{{id}}</p>
+    > -->
+    <!-- <HelloWorld msg="Welcome to Your Vue.js App" /> -->
+    <!-- <hr> -->
+    <!-- <p>id:{{id}}</p>
     <CustomTextarea />
     <button @click="handleClickDi(12345)">滴滴滴</button>
-    <button @click="handleClickDi(1234)">滴滴滴滴滴滴</button>
+    <button @click="handleClickDi(1234)">滴滴滴滴滴滴</button> -->
+    <TestingVuex />
   </div>
 </template>
 
@@ -17,12 +19,14 @@
 // @ is an alias to /src
 import HelloWorld from "@/components/HelloWorld.vue";
 import CustomTextarea from "@/components/ComplexForm";
+import TestingVuex from "@/components/TestingVuex";
 
 export default {
     name: "Home",
     components: {
         HelloWorld,
-        CustomTextarea
+        CustomTextarea,
+        TestingVuex
     },
     data() {
         return {
